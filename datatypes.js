@@ -140,21 +140,27 @@
 
 
 // switch statement
-month=3
-switch(month){
-    case 1:
-        console.log("winter")
-        console.log("Jan")
-        break;
-    case 2:
-        console.log("winter")
-        console.log("feb")
-        break;
-    case 3:
-        console.log("lil winter")
-        console.log("march")
-        break;
-    default :
-        console.log("we have only three months data")
-        console.log("only jan, feb and march")
-}
+// month=3
+// switch(month){
+//     case 1:
+//         console.log("winter")
+//         console.log("Jan")
+//         break;
+//     case 2:
+//         console.log("winter")
+//         console.log("feb")
+//         break;
+//     case 3:
+//         console.log("lil winter")
+//         console.log("march")
+//         break;
+//     default :
+//         console.log("we have only three months data")
+//         console.log("only jan, feb and march")
+// }
+
+
+// Ternary operator
+var marks=34.99
+var result=(marks>=35)?"pass":"fail"
+console.log(result)
