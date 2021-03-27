@@ -52,7 +52,7 @@
 // var name="abc";
 // console.log(name)
 
-
+// object
 // var student={Name:"Aniket",Address:"Google",Rollnumber:10,isGraduated: false};
 // console.log(student)
 
@@ -161,6 +161,6 @@
 
 
 // Ternary operator
-var marks=34.99
-var result=(marks>=35)?"pass":"fail"
-console.log(result)
+// var marks=34.99
+// var result=(marks>=35)?"pass":"fail"
+// console.log(result)
