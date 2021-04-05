@@ -27,5 +27,4 @@ function printsum(){
 console.log("sum is "+ sum )
 
 
-   
 

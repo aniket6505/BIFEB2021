@@ -16,6 +16,6 @@
 // }
 // console.log(i)
 
-// const ex
-const a=10
-console.log(a)
+// // const ex
+// const a=10
+// console.log(a)
