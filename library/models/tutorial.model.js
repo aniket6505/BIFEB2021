@@ -1,4 +1,4 @@
-const tutorial = (sequelize,Sequelize) =>{
+const tutorials = (sequelize,Sequelize) =>{
 const tutorial = sequelize.define("tutorial",{
     title : {
         type : Sequelize.STRING
@@ -9,9 +9,11 @@ const tutorial = sequelize.define("tutorial",{
     Publish : {
         type : Sequelize.STRING
     }
+}, {
+    timestamp:true
 })
 return tutorial;
 
 }
 
-export default tutorial
+export default tutorials

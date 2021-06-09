@@ -1,9 +1,10 @@
-export const pdb={
+const pgconfig = {
     HOST:"localhost",
+    PORT : "5432",
     USER : "postgres",
-    PASSWORD:"postgres",
+    PASSWORD:"Aniket",
     DB : "tuts",
-    dailect : "postgres",
+    dialect : "postgres",
     pool : {
         max:5,
         min:0,
@@ -11,4 +12,9 @@ export const pdb={
         idle : 10000
     }
 
+
+
+
 };
+
+export default pgconfig;

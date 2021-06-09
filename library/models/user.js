@@ -4,22 +4,22 @@ const schema=mongoose.Schema
 const userSchema =new schema({
     name : {
 
-        type:string,
+        type:String,
         required : true
     
     },
     gender: {
-        type:string,
+        type:String,
         required:true
     },
     age: {
-        type:string,
+        type:String,
         required:true
     },
     city: {
-        type:string,
+        type:String,
         required:true
     }
 },{timestamps:true})
 
-export const user = mongoose.model('user',userschema)
+export const user = mongoose.model('user',userSchema)
